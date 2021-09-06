@@ -1,0 +1,234 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.bgim {
+    margin-top:-10mm;
+    width: 100%;
+    height: 300mm;
+    background: url("../firstPicture.jpg");
+    background-size: cover;
+    text-align:center;
+   
+}
+
+.IN {
+    padding-top: 25mm;
+    width: 100%;
+    height: auto;
+    /*font-family: Engravers MT;*/
+    font-family: Stencil;
+    font-size: 6vh;
+}
+
+.info2 {
+    font-family: Forte;
+    font-size: 24px;
+}
+
+
+.bgim2 {
+    max-width: 100%;
+    height: auto;
+    background-color: lavender;
+    font-family: Engravers MT;
+    text-align:center;
+    padding-top:25mm;
+    padding-bottom:20mm;
+}
+
+.bgim22 {
+    max-width: 100%;
+    height: auto;
+    font-family: Bookman Old Style;
+    padding-top: 15mm;
+    text-align: justify;
+    font-size: 2vh;
+}
+
+.bgim3 {
+    max-width: 100%;
+    height: auto;
+    background-color: lavender;
+    text-align: center;
+    padding-top: 15mm;
+    font-size: 32px;
+    padding-bottom: 20mm;
+    color: black;
+}
+
+.bgim33{
+    color:yellow;
+}
+
+.bgim4 {
+    max-width: 100%;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+    padding-top: 15mm;
+    font-size: 32px;
+    color: white;
+    padding-bottom: 20mm;
+}
+
+.bgim44 {
+    max-width: 100%;
+    height: auto;
+    font-family: Bookman Old Style;
+    padding-top: 15mm;
+    font-size: 2vh;
+}
+
+.bgim444 {
+    max-width: 100%;
+    height: auto;
+    font-family: Bookman Old Style;
+    padding-top: 15mm;
+    font-size: 2vh;
+
+}
+
+.bgim5 {
+    max-width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 15mm;
+    font-size: 32px;
+    color: black;
+    padding-bottom: 20mm;
+}
+
+
+.imgSize{
+    height:10mm;
+    width:10mm;
+}
+
+.imgSize2 {
+    margin-top: 10mm;
+    height: 100mm;
+    width: 145mm;
+    border-radius: 20mm;
+}
+
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.imagesOnTheRight {
+    float: left;
+    margin-left:50mm;
+    height: 120mm;
+    margin-top: 20px;
+    background: url("../avatar.png");
+
+}
+
+.description {
+    margin-top:30mm;
+    float: right;
+    clear: both;
+    height:auto;
+    width:80%;
+    font-family:'Agency FB';
+}
+
+.skills {
+    float: left;
+    margin-left: 50mm;
+    width: 80%;
+    height: 120mm;
+}
+
+.test{
+    height:150mm;
+}
+
+.bgim6 {
+    max-width: 100%;
+    height: auto;
+    background-color: cadetblue;
+    text-align: center;
+    padding-top: 15mm;
+    font-size: 32px;
+    color: black;
+    padding-bottom: 20mm;
+}
+
+.bgim7 {
+    font-size: 32px;
+}

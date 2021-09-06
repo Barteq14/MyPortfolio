@@ -1,0 +1,163 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    @*--------------------------------------------------------------------------------ZDJĘCIE GŁÓWNE*@
+    <div class="bgim ">
+        <div class="row mr-0 ml-0">
+            <div class="col-12 IN">
+                BARTŁOMIEJ<br /> LONGOTA <br />
+            </div>
+        </div>
+        <div class="row mr-0 ml-0">
+            <div class="col-12 info2">
+                Magister Inżynier Informatyki
+            </div>
+        </div>
+    </div>
+    @*--------------------------------------------------------------------------------INFORMACJE O MNIE*@
+    <div class="bgim2">
+        <div class="row mr-0 ml-0">
+            <div class="col-12">
+                <h1> Informacje o mnie</h1><br />
+            </div>
+        </div>
+
+
+        <div class="row mr-0 ml-0">
+            <div class="col-12 bgim22">
+                @*<div class="">*@
+                Cześć, nazywam się Bartłomiej Longota. Serdecznie witam cię na moim PORTFOLIO. Właśnie skończyłem studia wyższe na kierunku informatyka ze stopniem "Magister Inżynier".
+                Moim celem na najbliższe dni, tygodnie jest znalezienie dobrej pracy, w której czułbym się spełniony. Chciałbym zmierzyć się z programowaniem baz danych w języku SQL lub
+                PL/SQL. Aktualnie moją zajawką jest grafika komputerowa, której dopiero zacząłem się uczyć. Będąc szczerym na studiach nie miałem zbyt wielu praktyk w ramach toku nauczania, więc
+                mam nadzieję, że Panie Pracodawco przyjniesz mnie do swojej firmy oraz przyuczysz i wytłumaczysz zagadnienia z którymi będę miał problem. Jestem gotowy i pełen chęci do nauki
+                i wierzę, że będzie nam się wspaniale pracowało.
+
+                @* </div>*@
+            </div>
+        </div>
+        @* <h1> Informacje o mnie</h1><br />*@
+
+        @* <div class="bgim22">
+
+                Cześć, nazywam się Bartłomiej Longota. Serdecznie witam cię na moim PORTFOLIO. Właśnie skończyłem studia wyższe na kierunku informatyka ze stopniem "Magister Inżynier".
+                Moim celem na najbliższe dni, tygodnie jest znalezienie dobrej pracy, w której czułbym się spełniony. Chciałbym zmierzyć się z programowaniem baz danych w języku SQL lub
+                PL/SQL. Aktualnie moją zajawką jest grafika komputerowa, której dopiero zacząłem się uczyć. Będąc szczerym na studiach nie miałem zbyt wielu praktyk w ramach toku nauczania, więc
+                mam nadzieję, że Panie Pracodawco przyjmniesz mnie do swojej firmy oraz przyuczysz i wytłumaczysz zagadnienia z którymi będę miał problem. Jestem gotowy i pełen chęci do nauki
+                i wierzę, że będzie nam się wspaniale pracowało.
+
+            </div>*@
+
+    </div>
+    @*--------------------------------------------------------------------------------UMIEJĘTNOŚCI*@
+    <div class="bgim3">
+        <font style="font-family:Engravers MT"> <h1>Skills</h1></font><br />
+
+        <div class="row mr-0 ml-0">
+            <div class="col-4">
+                <b><u>GOOD</u></b><br /><br />
+                @foreach (var person in ViewBag.GoodSkills)
+                {
+                    @person <img src="~/bat3.png" class="imgSize" /><br />
+                }
+            </div>
+            <div class="col-4">
+                <b><u>MEDIUM</u></b><br /><br />
+                @foreach (var person in ViewBag.MediumSkills)
+                {
+                    @person <img src="~/bat2.png" class="imgSize" /><br />
+                }
+            </div>
+            <div class="col-4">
+                <b><u>LOW</u></b><br /><br />
+                @foreach (var person in ViewBag.LowSkills)
+                {
+                    @person <img src="~/bat1.png" class="imgSize" /><br />
+                }
+            </div>
+
+        </div>
+
+    </div>
+    @*--------------------------------------------------------------------------------WYKSZTAŁCENIE*@
+    <div class="bgim4">
+        <div class="row mr-0 ml-0">
+            <div class="col-12">
+                <h1><font style="font-family:Engravers MT">Edukacja</font></h1>
+            </div>
+        </div>
+        <div class="row mr-0 ml-0 align-content-center">
+            <div class="col-md-6 bgim44">
+                @foreach (var person in ViewBag.Education)
+                {
+                    @person <br />
+                }
+            </div>
+            <div class="col-md-6 bgim444">
+                @foreach (var person in ViewBag.Period)
+                {
+                    @person <br />
+                }
+            </div>
+        </div>
+    </div>
+    @*--------------------------------------------------------------------------------WYKONANE PROJEKTY*@
+    <div class="bgim5">
+        <div class="row mr-0 ml-0">
+            <div class="col-12">
+                <h1><font style="font-family:Engravers MT">PROJEKTY</font></h1>
+            </div>
+        </div>
+        <div class="row mr-0 ml-0 align-content-center">
+            <div class="col-md-6 ">
+                <a href="https://github.com/Barteq14/Fanclub-Juventus-FC"><img src="~/juvnts.png" class="imgSize2" /></a>
+            </div>
+            <div class="col-md-6  bgim44">
+                Tutaj będzie opis krótki tego projektu <br />
+                narazie jest tylko odnośnik do GITHUB, pozniej wykupie domene.
+            </div>
+        </div>
+        <hr />
+        <div class="row mr-0 ml-0 align-content-center">
+            <div class="col-md-6  bgim44">
+                Tutaj będzie opis krótki tego projektu <br />
+                narazie jest tylko odnośnik do GITHUB, pozniej wykupie domene.
+            </div>
+            <div class="col-md-6 ">
+                <a href="https://github.com/Barteq14/Fanclub-Juventus-FC"><img src="~/papugarnia1.png" class="imgSize2" /></a>
+            </div>
+        </div>
+    </div>
+    @*--------------------------------------------------------------------------------Doświadczenie*@
+    <div class="bgim6">
+        <div class="row mr-0 ml-0">
+            <div class="col-12">
+                <h1><font style="font-family:Engravers MT">DoŚwiadczenie</font></h1>
+            </div>
+            <div class="col-12">
+                <div class="col-md-6 bgim444 bgim7">
+                    @foreach (var person in ViewBag.Experience)
+                    {
+                        @person <br />
+                    }
+                    <br /><br />
+                   
+                    <font style="font-family:Engravers MT">Kursy i Certyfikaty:</font> <br />
+                    <br />
+                    @foreach (var person in ViewBag.Certificates)
+                    {
+                        @person <br />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
